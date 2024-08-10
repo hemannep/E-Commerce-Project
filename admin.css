@@ -1,0 +1,179 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #3f3f3f;
+    color: #fff;
+    height: 120vh;
+    width: 230px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+
+    margin-top: 40px;
+}
+
+.sidebar li a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.sidebar li a i {
+    margin-right: 10px
+}
+
+.sidebar li.active a {
+background-color: #555;
+padding: 10px;
+border-radius: 5px;
+}
+
+.sidebar li a:hover {
+background-color: #555;
+padding: 10px;
+border-radius: 5px;
+}
+
+.main {
+margin-left: 200px;
+padding: 20px;
+height: 100vh;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 30px;
+/* justify-content: center; */
+
+}
+
+
+
+
+.header h2 {
+font-size: 28px;
+font-weight: normal;
+margin-top: 30px;
+padding-left: 500px;
+
+}
+
+.header a {
+background-color: #4ca9db;
+color: #fff;
+padding: 10px 20px 12px 14px ;
+margin-left: 400px;
+margin-top: 25px;
+border-radius: 5px;
+text-decoration: none;
+transition: all 0.3s ease;
+display: flex;
+justify-content:right;
+justify-items: right;
+}
+
+
+.header a:hover {
+background-color: #e53935;
+
+}
+
+.cards {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.card {
+background-color: #fff;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+border-radius: 5px;
+padding: 20px;
+margin-top: 20px;
+width: calc(25% - 20px);
+margin-bottom: 20px;
+}
+
+.card p{
+    margin-left: 80px;
+    font-size: 20px;
+}
+.card-icon {
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+.card-title {
+font-size: 16px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.card-value {
+font-size: 24px;
+font-weight: bold;
+}
+
+.charts {
+margin-top: 40px;
+text-align: center;
+}
+
+.charts h2 {
+font-size: 24px;
+font-weight: normal;
+margin-bottom: 20px;
+display: flex;
+justify-content: center;
+justify-items: center;
+}
+
+.charts img {
+max-width: 100%;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.footer{
+
+	color: white;
+	margin-left: 100px;
+	padding: 20px;
+    display: flex;
+    background: #000;
+	color: #8a8a8a;
+	font-size: 14px;
+}
+
+    .footer ul li {
+        display:inline-block;
+        padding: 0px  4.8px;
+        margin: 6px;
+        padding: 5px
+        
+    ;
+    }
